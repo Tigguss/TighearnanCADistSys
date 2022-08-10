@@ -1,0 +1,65 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "ds.service1";
+option java_outer_classname = "Service1Impl";
+
+package service1;
+
+
+service Service1 {
+  //UNary
+  rpc squared(NumberRequest) returns (NumberResponse) {}
+  //Client Streaming
+  rpc sum(stream NumberRequest) returns (SumResponse) {}
+	//server streaming
+  rpc fibonacci(NumberRequest) returns (stream NumberResponse) {}
+	// bi directional
+  rpc total(stream NumberRequest) returns (stream NumberResponse) {}
+    
+}
+
+
+message ContaminateLimit {
+  string text = "The maximum level of contaminate is: ";  
+  int32 limit = 25;
+}
+
+message ContaminateCheck {
+  string text = 1;
+  int32 number = 2;
+}
+
+message NumberRequest {
+  string text = 1;  
+  int32 number = 2;
+}
+
+message NumberResponse {
+  string text = 1;
+  int32 number = 2;
+}
+
+message SumResponse {
+  string text = 1;
+  int32 number = 2;
+  float fnum = 3;
+}
+
+//message Project {
+//  string name = 1;
+//  double budget = 2;
+//  Person person = 3;
+//}
+//
+//message Person {
+//  string name = 1;
+//  int32 id = 2;
+//  Availability availability = 3;
+//  map <int32, float> salary = 4;		// E.g. <PPSN, Salary>
+//}
+//
+//enum Availability {
+//  AVAILABLE = 0;
+//  UNAVAILABLE = 1;
+//}
