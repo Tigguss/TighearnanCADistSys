@@ -28,7 +28,6 @@ public class ControllerGUI implements ActionListener{
 	private JTextField entry1, reply1;
 	private JTextField entry2, reply2;
 	private JTextField entry3, reply3;
-	private JTextField entry4, reply4;
 
 
 	private JPanel getService1JPanel() {
@@ -37,14 +36,14 @@ public class ControllerGUI implements ActionListener{
 
 		BoxLayout boxlayout = new BoxLayout(panel, BoxLayout.X_AXIS);
 
-		JLabel label = new JLabel("Enter value")	;
+		JLabel label = new JLabel("Enter Contaminate value")	;
 		panel.add(label);
 		panel.add(Box.createRigidArea(new Dimension(10, 0)));
 		entry1 = new JTextField("",10);
 		panel.add(entry1);
 		panel.add(Box.createRigidArea(new Dimension(10, 0)));
 
-		JButton button = new JButton("Invoke Service 1");
+		JButton button = new JButton("Invoke Water Pollution services");
 		button.addActionListener(this);
 		panel.add(button);
 		panel.add(Box.createRigidArea(new Dimension(10, 0)));
@@ -53,10 +52,12 @@ public class ControllerGUI implements ActionListener{
 		reply1 .setEditable(false);
 		panel.add(reply1 );
 
-        
+
 		panel.setLayout(boxlayout);
 
 		return panel;
+
+
 
 	}
 
@@ -66,14 +67,15 @@ public class ControllerGUI implements ActionListener{
 
 		BoxLayout boxlayout = new BoxLayout(panel, BoxLayout.X_AXIS);
 
-		JLabel label = new JLabel("Enter value")	;
+		JLabel label = new JLabel("Enter Contaminate Value")	;
 		panel.add(label);
 		panel.add(Box.createRigidArea(new Dimension(10, 0)));
 		entry2 = new JTextField("",10);
 		panel.add(entry2);
 		panel.add(Box.createRigidArea(new Dimension(10, 0)));
 
-		JButton button = new JButton("Invoke Service 2");
+
+		JButton button = new JButton("Invoke Air Pollution Services");
 		button.addActionListener(this);
 		panel.add(button);
 		panel.add(Box.createRigidArea(new Dimension(10, 0)));
@@ -94,14 +96,14 @@ public class ControllerGUI implements ActionListener{
 
 		BoxLayout boxlayout = new BoxLayout(panel, BoxLayout.X_AXIS);
 
-		JLabel label = new JLabel("Enter value")	;
+		JLabel label = new JLabel("Enter Contaminate value")	;
 		panel.add(label);
 		panel.add(Box.createRigidArea(new Dimension(10, 0)));
 		entry3 = new JTextField("",10);
 		panel.add(entry3);
 		panel.add(Box.createRigidArea(new Dimension(10, 0)));
 
-		JButton button = new JButton("Invoke Service 3");
+		JButton button = new JButton("Invoke Storm Water Services");
 		button.addActionListener(this);
 		panel.add(button);
 		panel.add(Box.createRigidArea(new Dimension(10, 0)));
@@ -116,33 +118,6 @@ public class ControllerGUI implements ActionListener{
 
 	}
 
-	private JPanel getService4JPanel() {
-
-		JPanel panel = new JPanel();
-
-		BoxLayout boxlayout = new BoxLayout(panel, BoxLayout.X_AXIS);
-
-		JLabel label = new JLabel("Enter value")	;
-		panel.add(label);
-		panel.add(Box.createRigidArea(new Dimension(10, 0)));
-		entry4 = new JTextField("",10);
-		panel.add(entry4);
-		panel.add(Box.createRigidArea(new Dimension(10, 0)));
-
-		JButton button = new JButton("Invoke Service 4");
-		button.addActionListener(this);
-		panel.add(button);
-		panel.add(Box.createRigidArea(new Dimension(10, 0)));
-
-		reply4 = new JTextField("", 10);
-		reply4 .setEditable(false);
-		panel.add(reply4 );
-
-		panel.setLayout(boxlayout);
-
-		return panel;
-
-	}
 	public static void main(String[] args) {
 
 		ControllerGUI gui = new ControllerGUI();
