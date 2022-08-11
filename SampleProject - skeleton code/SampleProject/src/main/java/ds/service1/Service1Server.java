@@ -37,8 +37,7 @@ public class Service1Server extends Service1ImplBase {
 	@Override
 	public void check(ContaminateLimit request, StreamObserver<ContaminateCheck> responseObserver) {
 
-		// Get text field value
-//		String text = request.getText();
+
 
 		// Request the level of contaminates
 		System.out.println("Request contaminate level: " + request.getText());

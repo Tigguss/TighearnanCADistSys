@@ -33,7 +33,6 @@ public class Service3Server extends Service3ImplBase {
 
 
 // Method 1 - Storm Predicting - Server Streaming
-
     // *** SERVER-STREAMING RPC ***
     @Override
     public void fibonacci(airSupply request, StreamObserver<airSupplyExternal> responseObserver) {
@@ -68,7 +67,6 @@ public class Service3Server extends Service3ImplBase {
         }
 
         responseObserver.onCompleted();
-
     }
 
 
@@ -110,18 +108,13 @@ public class Service3Server extends Service3ImplBase {
 
 
 // Method 3 - Distribution of Water - Client Streaming
-
     @Override
     public StreamObserver<Pipe> sum(StreamObserver<PipeShutdown> responseObserver) {
-
         return new StreamObserver<StromPipe>() {
-
             ArrayList <Integer> StormPipeList = new ArrayList<>();
             ArrayList <Integer> waterSupplyList = new ArrayList<>();
-
             @Override
             public void onNext(StormPipe value) {
-
                 // Receiving number
                 System.out.println("Enter Storm Pipe ID.);
                 int stormPipeId = value.getNumber();
@@ -130,43 +123,32 @@ public class Service3Server extends Service3ImplBase {
                 // Display number
                 System.out.println("Storm Pipe ID is: " + number);
                 System.out.println("Status of Storm Pipe: " + StormPipeShutdown);
-
                 System.out.println("Water Supply ID is: " + number);
                 System.out.println("Status of Water Supply: " + );
                 // Add the number to the pipeList
                 pipeList.add(StormPipeId);
                 waterSupplyList.add(waterSupplyId);
-
             }
-
             @Override
             public void onError(Throwable t) {
-
             }
-
             @Override
             public void onCompleted() {
-
                 System.out.println("Done!");
-
                 int totalStormPipes = 0;
                 int totalWaterSupply = 0;
-
                 for (int number : StormPipeList) {
                     totalStormPipes = totalStormPipes + 1;
                 }
-
                 // Build the response message
                 PipeShutdown response = StormPipeShutdown.newBuilder()
                         .setPipeId(total)
                         .setText("Status of Storm Pipe - On or Off. Stats:" + PipeShutdown)
                         .setText("Number of Storm Pipes: " + totalStormPipes)
                         .build();
-
                 responseObserver.onNext(response);
                 responseObserver.onCompleted();
             }
-
         };
     }
 

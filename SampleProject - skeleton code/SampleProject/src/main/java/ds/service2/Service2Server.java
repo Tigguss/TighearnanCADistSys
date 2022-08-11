@@ -104,41 +104,30 @@ public class Service2Server extends Service2ImplBase {
     // Method 3 - Passive Monitoring Diffusion Tubes - BIDIRECTIONAL RPC ***
     @Override
     public StreamObserver<AirContaminateCheck> total(StreamObserver<Diffusion> responseObserver) {
-
         return new StreamObserver<AirContaminateCheck>() {
-
             int total = 0;
-
             @Override
             public void onNext(AirContaminateCheck value) {
-
                 // Get the request number
                 int number = value.getNumber();
-
                 // Add the number to the total
                 total = total + number;
-
                 // Build the response message
                 Diffusion response = Diffusion.newBuilder()
                         .setNumber(total)
                         .build();
-
                 // Send the message
                 responseObserver.onNext(response);
             }
-
             // Trigger specific diffusion
             @Override
             public void onError(Throwable t) {
                 t.printStackTrace();
             }
-
             @Override
             public void onCompleted() {
-
                 // Message call completed
                 System.out.println("Done!");
-
                 // End the message call
                 responseObserver.onCompleted();
             }
