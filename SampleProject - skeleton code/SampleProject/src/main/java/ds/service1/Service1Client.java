@@ -272,7 +272,7 @@ public class Service1Client {
 		
 	}
 	
-	
+	//Discovery
 	private void discoverService1(String service_type) {
 		
 		

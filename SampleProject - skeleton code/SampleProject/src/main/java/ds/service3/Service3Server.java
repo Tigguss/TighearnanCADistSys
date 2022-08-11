@@ -169,6 +169,8 @@ public class Service3Server extends Service3ImplBase {
 
         };
     }
+
+    // Naming Services , use of jmdns.
     private void registerService() {
 
         try {

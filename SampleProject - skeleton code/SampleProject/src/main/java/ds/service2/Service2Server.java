@@ -145,7 +145,7 @@ public class Service2Server extends Service2ImplBase {
 
         };
     }
-
+    // Naming Services , use of jmdns.
     private void registerService() {
 
         try {
