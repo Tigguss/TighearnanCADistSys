@@ -160,16 +160,12 @@ public class Service1Client {
 		NumberRequest request = NumberRequest.newBuilder()
 				.setNumber(10)
 				.build();
-		
 		StreamObserver<NumberResponse> responseObserver = new StreamObserver<NumberResponse>() {
-
 			@Override
 			public void onNext(NumberResponse value) {
-
 				// Display received number
 				System.out.println(value.getNumber());
 			}
-
 			@Override
 			public void onError(Throwable t) {
 				t.printStackTrace();
@@ -181,19 +177,15 @@ public class Service1Client {
 				// Server-streaming is completed
 				System.out.println("fibonacciAsync() server-streaming has finished\n\n");
 			}
-			
 		};
-		
 		// Client sends the request here via the asynchronous stub
 		asyncStub.fibonacci(request, responseObserver);
-		
 		try {
 			Thread.sleep(15000);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
 	}
 	
 	

@@ -3,21 +3,15 @@ syntax = "proto3";
 option java_multiple_files = true;
 option java_package = "ds.service3";
 option java_outer_classname = "Service3Impl";
-
 package service3;
-
 // Interface exported by the server.
 service Service3 {
-
-
 }
 // Method 1 - Storm Predicting - Server Streaming
     rpc service3_do(StormCheck) returns (StormData) {}
-
 message StormCheck {
   string stormCheck = 1;
 }
-
 message StormData {
   int32 stormStrength = 1;
   string stormName = 1;
@@ -27,8 +21,6 @@ enum WakeSystem {
   ASLEEP = 0;
   AWAKE = 1;
 }
-
-
 // Method 2 - Contaminate Checking in Storm Water Overflow - Unary
 rpc check(StormContaminateLimit) returns (StormContaminateCheck) {}
 
@@ -39,12 +31,7 @@ message StormContaminateLimit {
 message StormContaminateCheck {
   int32 level = 2;
 }
-
-
-
 // Method 3 - Distribution of Water - Client Streaming
-
-
     rpc sum(stream StormPipe) returns (StormPipe) {}
 
 message StormPipe {
@@ -53,12 +40,10 @@ message StormPipe {
   map <int32, float> availablePipe = 5;
 }
 
-
 enum StormPipeShutdown {
   OPEN = 0;
   CLOSED =1;
 }
-
 
 message WaterSupply {
       int32 supplyId = 223;

@@ -1,44 +1,31 @@
 syntax = "proto3";
-
 option java_multiple_files = true;
 option java_package = "ds.service2";
 option java_outer_classname = "Service2Impl";
-
 package service2;
-
 // Interface exported by the server.
 service Service2 {
-  
-
-    
 }
-
 //Method 1 - Air Pollution Check - Unary
-
 rpc airCheck(AirLimit) returns (AirContaminateCheck) {}
 message AirLimit {
   int32 limit = 30;
   }
-
 
   message AirContaminateCheck {
   int32 contanimateLevel = 3;
   }
 
 // Method 2 - Air Comparison - Server Streaming
+    rpc fibonacci(AirSupply) returns (stream AirSupplyExternal) {}
 
-//server streaming
-    rpc fibonacci(airSupply) returns (stream airSupplyExternal) {}
-
-message airSupplyExternal{
+message AirSupplyExternal{
   int32 airId = 212;
   }
 
-message airSupply{
+message AirSupply{
   int32 airIdExternal = 232;
   }
-
-
 // Method 3 - Passive Monitoring Diffusion Tubes - Bi Directional
 
     rpc total(stream AirContaminateCheck) returns (stream Diffusion) {}

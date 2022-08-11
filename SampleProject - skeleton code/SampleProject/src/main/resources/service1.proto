@@ -9,12 +9,6 @@ package service1;
 
 service Service1 {
 
-  /*
-	//server streaming
-  rpc fibonacci(NumberRequest) returns (stream NumberResponse) {}
-	// bi directional
-  rpc total(stream NumberRequest) returns (stream NumberResponse) {}
-    */
 }
 
 //Method 1
