@@ -53,6 +53,7 @@ public class ControllerGUI implements ActionListener{
 		reply1 .setEditable(false);
 		panel.add(reply1 );
 
+        
 		panel.setLayout(boxlayout);
 
 		return panel;
