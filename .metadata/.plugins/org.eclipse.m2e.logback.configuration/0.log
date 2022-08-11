@@ -2124,3 +2124,444 @@ org.eclipse.core.runtime.CoreException: Variable references non-existent resourc
 2022-08-10 17:21:53,847 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
 2022-08-10 17:22:01,008 [Worker-50: Launching SampleProject (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject
 2022-08-10 17:22:01,008 [Worker-50: Launching SampleProject (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B 
+2022-08-10 19:16:51,490 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-08-10 19:16:55,719 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc version: 3.6.0
+2022-08-10 19:16:56,074 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc command: C:\Users\tighe\AppData\Local\Temp\protocjar6952197009656062975\bin\protoc.exe
+2022-08-10 19:16:56,077 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Additional include types: C:\Users\tighe\AppData\Local\Temp\protocjar7164462084470832130\include
+2022-08-10 19:16:56,111 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/any.proto
+2022-08-10 19:16:56,113 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/api.proto
+2022-08-10 19:16:56,114 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/compiler/plugin.proto
+2022-08-10 19:16:56,115 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/descriptor.proto
+2022-08-10 19:16:56,116 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/duration.proto
+2022-08-10 19:16:56,117 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/empty.proto
+2022-08-10 19:16:56,117 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/field_mask.proto
+2022-08-10 19:16:56,118 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/source_context.proto
+2022-08-10 19:16:56,118 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/struct.proto
+2022-08-10 19:16:56,119 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/timestamp.proto
+2022-08-10 19:16:56,120 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/type.proto
+2022-08-10 19:16:56,121 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/wrappers.proto
+2022-08-10 19:16:56,333 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Input directories:
+2022-08-10 19:16:56,333 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources
+2022-08-10 19:16:56,333 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Include directories:
+2022-08-10 19:16:56,333 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\tighe\AppData\Local\Temp\protocjar7164462084470832130\include
+2022-08-10 19:16:56,333 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Output targets:
+2022-08-10 19:16:56,333 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     java: C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-08-10 19:16:56,333 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     grpc-java: C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-08-10 19:16:56,334 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Resolving artifact: io.grpc:protoc-gen-grpc-java:1.15.0, platform: windows-x86_64
+2022-08-10 19:16:56,354 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     Processing (java): service1.proto
+2022-08-10 19:16:56,578 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     Processing (java): service2.proto
+2022-08-10 19:16:56,706 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     Processing (java): service3.proto
+2022-08-10 19:16:56,863 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     Processing (java): service4.proto
+2022-08-10 19:16:57,020 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-08-10 19:16:57,022 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     Processing (grpc-java): service1.proto
+2022-08-10 19:16:57,022 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     Plugin path: C:\Users\tighe\AppData\Local\Temp\protoc-gen-grpc-java2237741284006243129.exe
+2022-08-10 19:16:57,464 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     Processing (grpc-java): service2.proto
+2022-08-10 19:16:57,465 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     Plugin path: C:\Users\tighe\AppData\Local\Temp\protoc-gen-grpc-java2237741284006243129.exe
+2022-08-10 19:16:57,763 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     Processing (grpc-java): service3.proto
+2022-08-10 19:16:57,764 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     Plugin path: C:\Users\tighe\AppData\Local\Temp\protoc-gen-grpc-java2237741284006243129.exe
+2022-08-10 19:16:58,002 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     Processing (grpc-java): service4.proto
+2022-08-10 19:16:58,003 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     Plugin path: C:\Users\tighe\AppData\Local\Temp\protoc-gen-grpc-java2237741284006243129.exe
+2022-08-10 19:16:58,253 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-08-10 19:16:58,396 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 19:16:58,400 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2022-08-10 19:16:58,405 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 19:16:58,407 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 19:17:01,209 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc version: 3.6.0
+2022-08-10 19:17:01,576 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc command: C:\Users\tighe\AppData\Local\Temp\protocjar14754910673776615749\bin\protoc.exe
+2022-08-10 19:17:01,579 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Additional include types: C:\Users\tighe\AppData\Local\Temp\protocjar16564611979493699165\include
+2022-08-10 19:17:01,622 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/any.proto
+2022-08-10 19:17:01,637 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/api.proto
+2022-08-10 19:17:01,638 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/compiler/plugin.proto
+2022-08-10 19:17:01,641 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/descriptor.proto
+2022-08-10 19:17:01,644 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/duration.proto
+2022-08-10 19:17:01,645 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/empty.proto
+2022-08-10 19:17:01,645 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/field_mask.proto
+2022-08-10 19:17:01,649 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/source_context.proto
+2022-08-10 19:17:01,649 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/struct.proto
+2022-08-10 19:17:01,650 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/timestamp.proto
+2022-08-10 19:17:01,651 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/type.proto
+2022-08-10 19:17:01,654 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/wrappers.proto
+2022-08-10 19:17:01,900 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Input directories:
+2022-08-10 19:17:01,901 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources
+2022-08-10 19:17:01,901 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Include directories:
+2022-08-10 19:17:01,901 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\tighe\AppData\Local\Temp\protocjar16564611979493699165\include
+2022-08-10 19:17:01,901 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Output targets:
+2022-08-10 19:17:01,901 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     java: C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-08-10 19:17:01,901 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     grpc-java: C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-08-10 19:17:01,901 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Resolving artifact: io.grpc:protoc-gen-grpc-java:1.15.0, platform: windows-x86_64
+2022-08-10 19:17:01,916 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service1.proto
+2022-08-10 19:17:01,917 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service2.proto
+2022-08-10 19:17:01,917 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service3.proto
+2022-08-10 19:17:01,917 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service4.proto
+2022-08-10 19:17:01,917 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-08-10 19:17:01,918 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service1.proto
+2022-08-10 19:17:01,918 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service2.proto
+2022-08-10 19:17:01,918 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service3.proto
+2022-08-10 19:17:01,918 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service4.proto
+2022-08-10 19:17:01,918 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-08-10 19:17:01,921 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 19:17:01,926 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2022-08-10 19:17:01,929 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 19:17:01,930 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 19:17:07,042 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-08-10 19:17:09,477 [Worker-35: Launching SampleProject (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject
+2022-08-10 19:17:09,482 [Worker-35: Launching SampleProject (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B 
+2022-08-10 19:17:33,487 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc version: 3.6.0
+2022-08-10 19:17:33,753 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc command: C:\Users\tighe\AppData\Local\Temp\protocjar18162226289130245851\bin\protoc.exe
+2022-08-10 19:17:33,756 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Additional include types: C:\Users\tighe\AppData\Local\Temp\protocjar2030045952635977307\include
+2022-08-10 19:17:33,793 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/any.proto
+2022-08-10 19:17:33,796 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/api.proto
+2022-08-10 19:17:33,798 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/compiler/plugin.proto
+2022-08-10 19:17:33,800 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/descriptor.proto
+2022-08-10 19:17:33,802 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/duration.proto
+2022-08-10 19:17:33,802 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/empty.proto
+2022-08-10 19:17:33,804 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/field_mask.proto
+2022-08-10 19:17:33,804 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/source_context.proto
+2022-08-10 19:17:33,805 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/struct.proto
+2022-08-10 19:17:33,807 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/timestamp.proto
+2022-08-10 19:17:33,807 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/type.proto
+2022-08-10 19:17:33,809 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/wrappers.proto
+2022-08-10 19:17:34,044 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Input directories:
+2022-08-10 19:17:34,044 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources
+2022-08-10 19:17:34,044 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Include directories:
+2022-08-10 19:17:34,044 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\tighe\AppData\Local\Temp\protocjar2030045952635977307\include
+2022-08-10 19:17:34,044 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Output targets:
+2022-08-10 19:17:34,044 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     java: C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-08-10 19:17:34,044 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     grpc-java: C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-08-10 19:17:34,044 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Resolving artifact: io.grpc:protoc-gen-grpc-java:1.15.0, platform: windows-x86_64
+2022-08-10 19:17:34,055 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service1.proto
+2022-08-10 19:17:34,055 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service2.proto
+2022-08-10 19:17:34,055 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service3.proto
+2022-08-10 19:17:34,056 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service4.proto
+2022-08-10 19:17:34,056 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-08-10 19:17:34,057 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service1.proto
+2022-08-10 19:17:34,057 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service2.proto
+2022-08-10 19:17:34,057 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service3.proto
+2022-08-10 19:17:34,057 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service4.proto
+2022-08-10 19:17:34,057 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-08-10 19:17:34,060 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 19:17:34,061 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2022-08-10 19:17:34,064 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 19:17:34,065 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 19:18:14,133 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc version: 3.6.0
+2022-08-10 19:18:14,417 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc command: C:\Users\tighe\AppData\Local\Temp\protocjar254959203253018404\bin\protoc.exe
+2022-08-10 19:18:14,419 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Additional include types: C:\Users\tighe\AppData\Local\Temp\protocjar18173458021137732265\include
+2022-08-10 19:18:14,453 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/any.proto
+2022-08-10 19:18:14,458 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/api.proto
+2022-08-10 19:18:14,459 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/compiler/plugin.proto
+2022-08-10 19:18:14,461 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/descriptor.proto
+2022-08-10 19:18:14,463 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/duration.proto
+2022-08-10 19:18:14,464 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/empty.proto
+2022-08-10 19:18:14,465 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/field_mask.proto
+2022-08-10 19:18:14,466 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/source_context.proto
+2022-08-10 19:18:14,467 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/struct.proto
+2022-08-10 19:18:14,467 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/timestamp.proto
+2022-08-10 19:18:14,468 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/type.proto
+2022-08-10 19:18:14,469 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/wrappers.proto
+2022-08-10 19:18:14,723 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Input directories:
+2022-08-10 19:18:14,724 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources
+2022-08-10 19:18:14,724 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Include directories:
+2022-08-10 19:18:14,724 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\tighe\AppData\Local\Temp\protocjar18173458021137732265\include
+2022-08-10 19:18:14,724 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Output targets:
+2022-08-10 19:18:14,724 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     java: C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-08-10 19:18:14,724 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     grpc-java: C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-08-10 19:18:14,724 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Resolving artifact: io.grpc:protoc-gen-grpc-java:1.15.0, platform: windows-x86_64
+2022-08-10 19:18:14,733 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service1.proto
+2022-08-10 19:18:14,733 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service2.proto
+2022-08-10 19:18:14,733 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service3.proto
+2022-08-10 19:18:14,733 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service4.proto
+2022-08-10 19:18:14,733 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-08-10 19:18:14,735 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service1.proto
+2022-08-10 19:18:14,735 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service2.proto
+2022-08-10 19:18:14,735 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service3.proto
+2022-08-10 19:18:14,735 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service4.proto
+2022-08-10 19:18:14,735 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-08-10 19:18:14,737 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 19:18:14,739 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2022-08-10 19:18:14,741 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 19:18:14,741 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 19:18:19,162 [Worker-24: Launching SampleProject (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject
+2022-08-10 19:18:19,162 [Worker-24: Launching SampleProject (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B 
+2022-08-10 19:18:41,967 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc version: 3.6.0
+2022-08-10 19:18:42,180 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc command: C:\Users\tighe\AppData\Local\Temp\protocjar13076411277271886124\bin\protoc.exe
+2022-08-10 19:18:42,182 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Additional include types: C:\Users\tighe\AppData\Local\Temp\protocjar13919657766928941586\include
+2022-08-10 19:18:42,211 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/any.proto
+2022-08-10 19:18:42,214 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/api.proto
+2022-08-10 19:18:42,215 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/compiler/plugin.proto
+2022-08-10 19:18:42,216 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/descriptor.proto
+2022-08-10 19:18:42,217 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/duration.proto
+2022-08-10 19:18:42,218 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/empty.proto
+2022-08-10 19:18:42,219 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/field_mask.proto
+2022-08-10 19:18:42,220 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/source_context.proto
+2022-08-10 19:18:42,221 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/struct.proto
+2022-08-10 19:18:42,221 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/timestamp.proto
+2022-08-10 19:18:42,222 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/type.proto
+2022-08-10 19:18:42,223 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/wrappers.proto
+2022-08-10 19:18:42,425 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Input directories:
+2022-08-10 19:18:42,425 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources
+2022-08-10 19:18:42,425 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Include directories:
+2022-08-10 19:18:42,425 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\tighe\AppData\Local\Temp\protocjar13919657766928941586\include
+2022-08-10 19:18:42,425 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Output targets:
+2022-08-10 19:18:42,425 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     java: C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-08-10 19:18:42,425 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     grpc-java: C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-08-10 19:18:42,425 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Resolving artifact: io.grpc:protoc-gen-grpc-java:1.15.0, platform: windows-x86_64
+2022-08-10 19:18:42,433 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service1.proto
+2022-08-10 19:18:42,434 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service2.proto
+2022-08-10 19:18:42,435 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service3.proto
+2022-08-10 19:18:42,435 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service4.proto
+2022-08-10 19:18:42,435 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-08-10 19:18:42,435 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service1.proto
+2022-08-10 19:18:42,435 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service2.proto
+2022-08-10 19:18:42,435 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service3.proto
+2022-08-10 19:18:42,435 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service4.proto
+2022-08-10 19:18:42,435 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-08-10 19:18:42,437 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 19:18:42,439 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2022-08-10 19:18:42,441 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 19:18:42,442 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 19:18:44,091 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc version: 3.6.0
+2022-08-10 19:18:44,402 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc command: C:\Users\tighe\AppData\Local\Temp\protocjar7468453668738493305\bin\protoc.exe
+2022-08-10 19:18:44,405 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Additional include types: C:\Users\tighe\AppData\Local\Temp\protocjar11062575676855177142\include
+2022-08-10 19:18:44,441 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/any.proto
+2022-08-10 19:18:44,446 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/api.proto
+2022-08-10 19:18:44,448 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/compiler/plugin.proto
+2022-08-10 19:18:44,450 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/descriptor.proto
+2022-08-10 19:18:44,451 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/duration.proto
+2022-08-10 19:18:44,453 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/empty.proto
+2022-08-10 19:18:44,454 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/field_mask.proto
+2022-08-10 19:18:44,455 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/source_context.proto
+2022-08-10 19:18:44,456 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/struct.proto
+2022-08-10 19:18:44,457 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/timestamp.proto
+2022-08-10 19:18:44,459 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/type.proto
+2022-08-10 19:18:44,459 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/wrappers.proto
+2022-08-10 19:18:44,705 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Input directories:
+2022-08-10 19:18:44,705 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources
+2022-08-10 19:18:44,705 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Include directories:
+2022-08-10 19:18:44,705 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\tighe\AppData\Local\Temp\protocjar11062575676855177142\include
+2022-08-10 19:18:44,705 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Output targets:
+2022-08-10 19:18:44,705 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     java: C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-08-10 19:18:44,705 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     grpc-java: C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-08-10 19:18:44,706 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Resolving artifact: io.grpc:protoc-gen-grpc-java:1.15.0, platform: windows-x86_64
+2022-08-10 19:18:44,717 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service1.proto
+2022-08-10 19:18:44,717 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service2.proto
+2022-08-10 19:18:44,717 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service3.proto
+2022-08-10 19:18:44,717 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service4.proto
+2022-08-10 19:18:44,717 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-08-10 19:18:44,718 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service1.proto
+2022-08-10 19:18:44,718 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service2.proto
+2022-08-10 19:18:44,718 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service3.proto
+2022-08-10 19:18:44,718 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service4.proto
+2022-08-10 19:18:44,718 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-08-10 19:18:44,720 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 19:18:44,722 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2022-08-10 19:18:44,727 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 19:18:44,727 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 19:19:06,411 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc version: 3.6.0
+2022-08-10 19:19:06,634 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc command: C:\Users\tighe\AppData\Local\Temp\protocjar1007232561075666742\bin\protoc.exe
+2022-08-10 19:19:06,637 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Additional include types: C:\Users\tighe\AppData\Local\Temp\protocjar18305282320622039192\include
+2022-08-10 19:19:06,667 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/any.proto
+2022-08-10 19:19:06,671 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/api.proto
+2022-08-10 19:19:06,672 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/compiler/plugin.proto
+2022-08-10 19:19:06,673 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/descriptor.proto
+2022-08-10 19:19:06,675 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/duration.proto
+2022-08-10 19:19:06,676 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/empty.proto
+2022-08-10 19:19:06,676 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/field_mask.proto
+2022-08-10 19:19:06,677 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/source_context.proto
+2022-08-10 19:19:06,677 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/struct.proto
+2022-08-10 19:19:06,678 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/timestamp.proto
+2022-08-10 19:19:06,679 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/type.proto
+2022-08-10 19:19:06,679 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/wrappers.proto
+2022-08-10 19:19:06,881 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Input directories:
+2022-08-10 19:19:06,881 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources
+2022-08-10 19:19:06,881 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Include directories:
+2022-08-10 19:19:06,881 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\tighe\AppData\Local\Temp\protocjar18305282320622039192\include
+2022-08-10 19:19:06,881 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Output targets:
+2022-08-10 19:19:06,881 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     java: C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-08-10 19:19:06,881 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     grpc-java: C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-08-10 19:19:06,881 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Resolving artifact: io.grpc:protoc-gen-grpc-java:1.15.0, platform: windows-x86_64
+2022-08-10 19:19:06,891 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service1.proto
+2022-08-10 19:19:06,891 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service2.proto
+2022-08-10 19:19:06,891 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service3.proto
+2022-08-10 19:19:06,892 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service4.proto
+2022-08-10 19:19:06,892 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-08-10 19:19:06,892 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service1.proto
+2022-08-10 19:19:06,892 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service2.proto
+2022-08-10 19:19:06,892 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service3.proto
+2022-08-10 19:19:06,892 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service4.proto
+2022-08-10 19:19:06,893 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-08-10 19:19:06,894 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 19:19:06,895 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-10 19:19:06,897 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 19:19:06,897 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 21:45:10,693 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc version: 3.6.0
+2022-08-10 21:45:10,941 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc command: C:\Users\tighe\AppData\Local\Temp\protocjar10118790433744153000\bin\protoc.exe
+2022-08-10 21:45:10,942 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Additional include types: C:\Users\tighe\AppData\Local\Temp\protocjar17500449506126080110\include
+2022-08-10 21:45:11,213 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/any.proto
+2022-08-10 21:45:11,216 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/api.proto
+2022-08-10 21:45:11,217 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/compiler/plugin.proto
+2022-08-10 21:45:11,218 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/descriptor.proto
+2022-08-10 21:45:11,219 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/duration.proto
+2022-08-10 21:45:11,220 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/empty.proto
+2022-08-10 21:45:11,220 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/field_mask.proto
+2022-08-10 21:45:11,221 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/source_context.proto
+2022-08-10 21:45:11,222 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/struct.proto
+2022-08-10 21:45:11,222 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/timestamp.proto
+2022-08-10 21:45:11,223 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/type.proto
+2022-08-10 21:45:11,224 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/wrappers.proto
+2022-08-10 21:45:11,518 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Input directories:
+2022-08-10 21:45:11,518 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources
+2022-08-10 21:45:11,518 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Include directories:
+2022-08-10 21:45:11,518 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\tighe\AppData\Local\Temp\protocjar17500449506126080110\include
+2022-08-10 21:45:11,518 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Output targets:
+2022-08-10 21:45:11,518 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     java: C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-08-10 21:45:11,518 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     grpc-java: C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-08-10 21:45:11,518 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Resolving artifact: io.grpc:protoc-gen-grpc-java:1.15.0, platform: windows-x86_64
+2022-08-10 21:45:11,534 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service1.proto
+2022-08-10 21:45:11,534 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service2.proto
+2022-08-10 21:45:11,534 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service3.proto
+2022-08-10 21:45:11,534 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-08-10 21:45:11,535 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service1.proto
+2022-08-10 21:45:11,535 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service2.proto
+2022-08-10 21:45:11,535 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service3.proto
+2022-08-10 21:45:11,535 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-08-10 21:45:11,547 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 21:45:11,552 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-08-10 21:45:11,586 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 21:45:11,587 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 21:50:04,594 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc version: 3.6.0
+2022-08-10 21:50:04,761 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc command: C:\Users\tighe\AppData\Local\Temp\protocjar18310302851170101013\bin\protoc.exe
+2022-08-10 21:50:04,763 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Additional include types: C:\Users\tighe\AppData\Local\Temp\protocjar14210345536670982932\include
+2022-08-10 21:50:04,794 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/any.proto
+2022-08-10 21:50:04,797 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/api.proto
+2022-08-10 21:50:04,797 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/compiler/plugin.proto
+2022-08-10 21:50:04,798 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/descriptor.proto
+2022-08-10 21:50:04,799 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/duration.proto
+2022-08-10 21:50:04,800 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/empty.proto
+2022-08-10 21:50:04,801 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/field_mask.proto
+2022-08-10 21:50:04,801 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/source_context.proto
+2022-08-10 21:50:04,802 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/struct.proto
+2022-08-10 21:50:04,802 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/timestamp.proto
+2022-08-10 21:50:04,802 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/type.proto
+2022-08-10 21:50:04,803 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/wrappers.proto
+2022-08-10 21:50:04,987 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Input directories:
+2022-08-10 21:50:04,987 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources
+2022-08-10 21:50:04,987 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Include directories:
+2022-08-10 21:50:04,987 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\tighe\AppData\Local\Temp\protocjar14210345536670982932\include
+2022-08-10 21:50:04,987 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Output targets:
+2022-08-10 21:50:04,987 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     java: C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-08-10 21:50:04,987 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     grpc-java: C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-08-10 21:50:04,988 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Resolving artifact: io.grpc:protoc-gen-grpc-java:1.15.0, platform: windows-x86_64
+2022-08-10 21:50:04,995 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service1.proto
+2022-08-10 21:50:04,995 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service2.proto
+2022-08-10 21:50:04,995 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service3.proto
+2022-08-10 21:50:04,995 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-08-10 21:50:04,996 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service1.proto
+2022-08-10 21:50:04,996 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service2.proto
+2022-08-10 21:50:04,996 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service3.proto
+2022-08-10 21:50:04,996 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-08-10 21:50:04,998 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 21:50:04,999 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-08-10 21:50:05,001 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 21:50:05,001 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-10 21:50:06,017 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc version: 3.6.0
+2022-08-10 21:50:06,185 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc command: C:\Users\tighe\AppData\Local\Temp\protocjar14184337009433253359\bin\protoc.exe
+2022-08-10 21:50:06,186 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Additional include types: C:\Users\tighe\AppData\Local\Temp\protocjar10011268460537040761\include
+2022-08-10 21:50:06,215 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/any.proto
+2022-08-10 21:50:06,218 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/api.proto
+2022-08-10 21:50:06,219 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/compiler/plugin.proto
+2022-08-10 21:50:06,220 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/descriptor.proto
+2022-08-10 21:50:06,221 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/duration.proto
+2022-08-10 21:50:06,222 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/empty.proto
+2022-08-10 21:50:06,222 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/field_mask.proto
+2022-08-10 21:50:06,222 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/source_context.proto
+2022-08-10 21:50:06,223 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/struct.proto
+2022-08-10 21:50:06,223 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/timestamp.proto
+2022-08-10 21:50:06,224 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/type.proto
+2022-08-10 21:50:06,225 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/wrappers.proto
+2022-08-10 21:50:06,407 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Input directories:
+2022-08-10 21:50:06,407 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources
+2022-08-10 21:50:06,407 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Include directories:
+2022-08-10 21:50:06,407 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\tighe\AppData\Local\Temp\protocjar10011268460537040761\include
+2022-08-10 21:50:06,407 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Output targets:
+2022-08-10 21:50:06,407 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     java: C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-08-10 21:50:06,407 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     grpc-java: C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-08-10 21:50:06,408 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Resolving artifact: io.grpc:protoc-gen-grpc-java:1.15.0, platform: windows-x86_64
+2022-08-10 21:50:06,415 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service1.proto
+2022-08-10 21:50:06,415 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service2.proto
+2022-08-10 21:50:06,415 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service3.proto
+2022-08-10 21:50:06,415 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-08-10 21:50:06,416 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service1.proto
+2022-08-10 21:50:06,416 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service2.proto
+2022-08-10 21:50:06,416 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service3.proto
+2022-08-10 21:50:06,416 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-08-10 21:50:06,418 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 21:50:06,419 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-08-10 21:50:06,420 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-10 21:50:06,420 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-11 01:06:05,218 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc version: 3.6.0
+2022-08-11 01:06:05,451 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc command: C:\Users\tighe\AppData\Local\Temp\protocjar3737234313827135141\bin\protoc.exe
+2022-08-11 01:06:05,453 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Additional include types: C:\Users\tighe\AppData\Local\Temp\protocjar11450201117782962595\include
+2022-08-11 01:06:05,484 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/any.proto
+2022-08-11 01:06:05,487 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/api.proto
+2022-08-11 01:06:05,488 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/compiler/plugin.proto
+2022-08-11 01:06:05,490 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/descriptor.proto
+2022-08-11 01:06:05,491 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/duration.proto
+2022-08-11 01:06:05,491 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/empty.proto
+2022-08-11 01:06:05,492 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/field_mask.proto
+2022-08-11 01:06:05,493 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/source_context.proto
+2022-08-11 01:06:05,494 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/struct.proto
+2022-08-11 01:06:05,494 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/timestamp.proto
+2022-08-11 01:06:05,494 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/type.proto
+2022-08-11 01:06:05,495 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/wrappers.proto
+2022-08-11 01:06:05,707 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Input directories:
+2022-08-11 01:06:05,707 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources
+2022-08-11 01:06:05,707 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Include directories:
+2022-08-11 01:06:05,707 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\tighe\AppData\Local\Temp\protocjar11450201117782962595\include
+2022-08-11 01:06:05,707 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Output targets:
+2022-08-11 01:06:05,707 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     java: C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-08-11 01:06:05,707 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     grpc-java: C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-08-11 01:06:05,708 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Resolving artifact: io.grpc:protoc-gen-grpc-java:1.15.0, platform: windows-x86_64
+2022-08-11 01:06:05,721 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service1.proto
+2022-08-11 01:06:05,721 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service2.proto
+2022-08-11 01:06:05,721 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service3.proto
+2022-08-11 01:06:05,721 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-08-11 01:06:05,722 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service1.proto
+2022-08-11 01:06:05,722 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service2.proto
+2022-08-11 01:06:05,722 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not changed C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources\service3.proto
+2022-08-11 01:06:05,722 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Adding generated classes to classpath
+2022-08-11 01:06:05,729 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 01:06:05,731 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-11 01:06:05,738 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 01:06:05,738 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-11 01:06:24,741 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-08-11 01:06:32,022 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc version: 3.6.0
+2022-08-11 01:06:32,213 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc command: C:\Users\tighe\AppData\Local\Temp\protocjar15916992456016696832\bin\protoc.exe
+2022-08-11 01:06:32,215 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Additional include types: C:\Users\tighe\AppData\Local\Temp\protocjar16879561223066842951\include
+2022-08-11 01:06:32,249 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/any.proto
+2022-08-11 01:06:32,253 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/api.proto
+2022-08-11 01:06:32,255 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/compiler/plugin.proto
+2022-08-11 01:06:32,255 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/descriptor.proto
+2022-08-11 01:06:32,257 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/duration.proto
+2022-08-11 01:06:32,257 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/empty.proto
+2022-08-11 01:06:32,258 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/field_mask.proto
+2022-08-11 01:06:32,259 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/source_context.proto
+2022-08-11 01:06:32,260 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/struct.proto
+2022-08-11 01:06:32,260 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/timestamp.proto
+2022-08-11 01:06:32,261 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/type.proto
+2022-08-11 01:06:32,262 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/wrappers.proto
+2022-08-11 01:06:32,466 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Input directories:
+2022-08-11 01:06:32,466 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources
+2022-08-11 01:06:32,466 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Include directories:
+2022-08-11 01:06:32,466 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\tighe\AppData\Local\Temp\protocjar16879561223066842951\include
+2022-08-11 01:06:32,466 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Output targets:
+2022-08-11 01:06:32,466 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     java: C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-08-11 01:06:32,466 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     grpc-java: C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-08-11 01:06:32,466 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Resolving artifact: io.grpc:protoc-gen-grpc-java:1.15.0, platform: windows-x86_64
+2022-08-11 01:06:32,488 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     Processing (java): service1.proto
+2022-08-11 01:06:32,911 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 01:06:32,924 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-08-11 01:06:32,956 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-11 01:06:32,957 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-11 01:18:59,860 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-08-11 01:19:02,108 [Worker-41: Launching SampleProject (5)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject
+2022-08-11 01:19:02,111 [Worker-41: Launching SampleProject (5)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B 

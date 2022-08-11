@@ -9,14 +9,42 @@ package service2;
 // Interface exported by the server.
 service Service2 {
   
-  rpc Service2Length(RequestLengthMessage) returns (ResponseLengthMessage) {}
+
     
 }
 
-message RequestLengthMessage {
-  string text = 1;  
-}
+//Method 1 - Air Pollution Check - Unary
 
-message ResponseLengthMessage {
-  int32 length = 1;
-}
+rpc airCheck(AirLimit) returns (AirContaminateCheck) {}
+message AirLimit {
+  int32 limit = 30;
+  }
+
+
+  message AirContaminateCheck {
+  int32 contanimateLevel = 3;
+  }
+
+// Method 2 - Air Comparison - Server Streaming
+
+//server streaming
+    rpc fibonacci(airSupply) returns (stream airSupplyExternal) {}
+
+message airSupplyExternal{
+  int32 airId = 212;
+  }
+
+message airSupply{
+  int32 airIdExternal = 232;
+  }
+
+
+// Method 3 - Passive Monitoring Diffusion Tubes - Bi Directional
+
+    rpc total(stream AirContaminateCheck) returns (stream Diffusion) {}
+
+message Diffusion {
+    int32 airId = 22;
+    int32 triggerLevel = 15;
+    int32 diffusionId = 10;
+    }

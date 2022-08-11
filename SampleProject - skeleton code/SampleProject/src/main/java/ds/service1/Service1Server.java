@@ -36,7 +36,7 @@ public class Service1Server extends Service1ImplBase {
 	// *** Service 1 - Method 1 Contaminate level in the water. UNARY RPC ***
 	@Override
 	public void check(ContaminateLimit request, StreamObserver<ContaminateCheck> responseObserver) {
-		
+
 		// Get text field value
 //		String text = request.getText();
 		
@@ -122,7 +122,7 @@ public class Service1Server extends Service1ImplBase {
 		};
 	}
 
-	//Service 1  - Method 3 - Compiling data of contaminates and levels
+	//Service 1  - Method 3 - Compiling data of contaminates and levels - Unary
 	@Override
 	public void compile(Pipe request, StreamObserver<Pipe> responseObserver) {
 
@@ -156,89 +156,6 @@ public class Service1Server extends Service1ImplBase {
 
 
 
-	/*
-	// *** SERVER-STREAMING RPC ***
-	@Override
-	public void fibonacci(NumberRequest request, StreamObserver<NumberResponse> responseObserver) {
-
-		// Receiving request
-		System.out.println("Request message from client: " + request.getText());
-		
-		// Get request number
-		int number = request.getNumber();
-		
-		// Create number variables
-		int a = 0;
-		int b = 1;
-		
-		for (int i = 1; i <= number; i++) {
-			int num = a + b;
-			a = b;
-			b = num;
-			
-			NumberResponse response = NumberResponse.newBuilder()
-					.setNumber(num)
-					.build();
-			
-			responseObserver.onNext(response);
-			
-			try {
-				//wait for one second
-				Thread.sleep(1000);
-			} catch (InterruptedException e) {
-				e.printStackTrace();
-			}
-		}
-		
-		responseObserver.onCompleted();
-		
-	}
-
-	
-	// *** BIDIRECTIONAL RPC ***
-	@Override
-	public StreamObserver<NumberRequest> total(StreamObserver<NumberResponse> responseObserver) {
-
-		return new StreamObserver<NumberRequest>() {
-
-			int total = 0;
-			
-			@Override
-			public void onNext(NumberRequest value) {
-				
-				// Get the request number
-				int number = value.getNumber();
-				
-				// Add the number to the total
-				total = total + number;
-				
-				// Build the response message
-				NumberResponse response = NumberResponse.newBuilder()
-						.setNumber(total)
-						.build();
-				
-				// Send the message
-				responseObserver.onNext(response);
-			}
-
-			@Override
-			public void onError(Throwable t) {
-				t.printStackTrace();	
-			}
-
-			@Override
-			public void onCompleted() {
-
-				// Message call completed
-				System.out.println("Done!");
-				
-				// End the message call
-				responseObserver.onCompleted();		
-			}
-			
-		};
-	}
-	*/
 	
 	private void registerService() {
 		
@@ -249,7 +166,7 @@ public class Service1Server extends Service1ImplBase {
 	            String service_type = "_service1._tcp.local.";
 	            String service_name = "Service 1 Server";
 	            int service_port = 50051;
-	            String service_description = "Perform maths operations";
+	            String service_description = "Water Pollution operations";
 	            
 	            // Register a service
 	            ServiceInfo serviceInfo = ServiceInfo.create(service_type, service_name, service_port, service_description);
