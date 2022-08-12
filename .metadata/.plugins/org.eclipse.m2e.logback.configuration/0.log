@@ -2729,3 +2729,35 @@ org.eclipse.core.runtime.CoreException: Variable references non-existent resourc
 2022-08-11 02:16:23,555 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
 2022-08-11 02:16:23,565 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-08-11 02:16:23,566 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-12 02:44:09,966 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-08-12 02:44:19,283 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc version: 3.6.0
+2022-08-12 02:44:19,519 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Protoc command: C:\Users\tighe\AppData\Local\Temp\protocjar1091893819279599383\bin\protoc.exe
+2022-08-12 02:44:19,521 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Additional include types: C:\Users\tighe\AppData\Local\Temp\protocjar8736006361813131095\include
+2022-08-12 02:44:19,554 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/any.proto
+2022-08-12 02:44:19,557 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/api.proto
+2022-08-12 02:44:19,559 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/compiler/plugin.proto
+2022-08-12 02:44:19,560 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/descriptor.proto
+2022-08-12 02:44:19,562 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/duration.proto
+2022-08-12 02:44:19,562 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/empty.proto
+2022-08-12 02:44:19,563 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/field_mask.proto
+2022-08-12 02:44:19,564 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/source_context.proto
+2022-08-12 02:44:19,564 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/struct.proto
+2022-08-12 02:44:19,565 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/timestamp.proto
+2022-08-12 02:44:19,566 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/type.proto
+2022-08-12 02:44:19,567 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     google/protobuf/wrappers.proto
+2022-08-12 02:44:19,763 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Input directories:
+2022-08-12 02:44:19,763 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\resources
+2022-08-12 02:44:19,763 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Include directories:
+2022-08-12 02:44:19,763 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     C:\Users\tighe\AppData\Local\Temp\protocjar8736006361813131095\include
+2022-08-12 02:44:19,763 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Output targets:
+2022-08-12 02:44:19,763 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     java: C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-08-12 02:44:19,763 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     grpc-java: C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject\src\main\java (add: main, clean: false, plugin: null, outputOptions: null)
+2022-08-12 02:44:19,764 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Resolving artifact: io.grpc:protoc-gen-grpc-java:1.15.0, platform: windows-x86_64
+2022-08-12 02:44:19,783 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger -     Processing (java): service1.proto
+2022-08-12 02:44:20,146 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-12 02:44:20,149 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-08-12 02:44:20,162 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-12 02:44:20,162 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-08-12 02:44:20,503 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2022-08-12 02:44:25,279 [Worker-26: Launching SampleProject (6)] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\tighe\OneDrive\Desktop\SampleProject - Support\SampleProject - skeleton code\SampleProject
+2022-08-12 02:44:25,280 [Worker-26: Launching SampleProject (6)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B 
